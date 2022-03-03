@@ -1,0 +1,171 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Assignment3</name>
+    </assembly>
+    <members>
+        <member name="M:Assignment3.Controllers.CharacterController.CharacterExists(System.Int32)">
+            <summary>
+            Check if Character exists in database
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Assignment3.Controllers.CharacterController.GetCharacters">
+            <summary>
+            Gets a list of Characters
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Assignment3.Controllers.CharacterController.GetCharacterById(System.Int32)">
+            <summary>
+            Gets a Character by Id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Assignment3.Controllers.CharacterController.PostCharacter(Assignment3.DTOs.Character.CharacterCreateDTO)">
+            <summary>
+            Adds a new Character
+            </summary>
+            <param name="newCharacter"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Assignment3.Controllers.CharacterController.DeleteCharacter(System.Int32)">
+            <summary>
+            Deletes a Character
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Assignment3.Controllers.CharacterController.UpdateCharacter(System.Int32,Assignment3.DTOs.Character.CharacterUpdateDTO)">
+            <summary>
+            Updates a Character
+            </summary>
+            <param name="id"></param>
+            <param name="newCharacter"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Assignment3.Controllers.FranchiseController.FranchiseExists(System.Int32)">
+            <summary>
+            Check if Franchise exists in database
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Assignment3.Controllers.FranchiseController.GetFranchises">
+            <summary>
+            Gets a list of Franchises
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Assignment3.Controllers.FranchiseController.GetFranchiseById(System.Int32)">
+            <summary>
+            Gets a Franchise by Id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Assignment3.Controllers.FranchiseController.PostFranchise(Assignment3.DTOs.Franchise.FranchiseCreateDTO)">
+            <summary>
+            Adds a new Franchise
+            </summary>
+            <param name="newFranchise"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Assignment3.Controllers.FranchiseController.DeleteFranchise(System.Int32)">
+            <summary>
+            Deletes a Franchise
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Assignment3.Controllers.FranchiseController.UpdateFranchise(System.Int32,Assignment3.DTOs.Franchise.FranchiseUpdateDTO)">
+            <summary>
+            Updates a Franchise
+            </summary>
+            <param name="id"></param>
+            <param name="newFranchise"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Assignment3.Controllers.FranchiseController.UpdateFranchiseMovie(System.Int32,System.Collections.Generic.List{System.Int32})">
+            <summary>
+            Update Movies in a Franchise
+            </summary>
+            <param name="id"></param>
+            <param name="movies"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Assignment3.Controllers.FranchiseController.GetAllMoviesFranchise(System.Int32)">
+            <summary>
+            Get all Movies in a Franchise
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Assignment3.Controllers.FranchiseController.GetAllCharactersFranchise(System.Int32)">
+            <summary>
+            Get all Characters in a Franchise
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Assignment3.Controllers.MovieController.MovieExists(System.Int32)">
+            <summary>
+            Check if Movie exists in database
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Assignment3.Controllers.MovieController.GetMovies">
+            <summary>
+            Gets a list of Movies
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Assignment3.Controllers.MovieController.GetMovieById(System.Int32)">
+            <summary>
+            Gets a Movie by Id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Assignment3.Controllers.MovieController.PostMovie(Assignment3.DTOs.Movie.MovieCreateDTO)">
+            <summary>
+            Adds a new Movie
+            </summary>
+            <param name="newMovie"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Assignment3.Controllers.MovieController.DeleteMovie(System.Int32)">
+            <summary>
+            Deletes a Movie
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Assignment3.Controllers.MovieController.UpdateMovie(System.Int32,Assignment3.DTOs.Movie.MovieUpdateDTO)">
+            <summary>
+            Updates a Movie
+            </summary>
+            <param name="id"></param>
+            <param name="newMovie"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Assignment3.Controllers.MovieController.UpdateMovieCharacter(System.Int32,System.Collections.Generic.List{System.Int32})">
+            <summary>
+            Update Characters in Movie
+            </summary>
+            <param name="id"></param>
+            <param name="characters"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Assignment3.Controllers.MovieController.GetAllCharactersMovie(System.Int32)">
+            <summary>
+            Get all Characters in a Movie
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
